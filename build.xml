@@ -19,7 +19,7 @@
 	<property name="common.lang.lib" value="${dev.base}/CommonLang/bin"/>
 
 	<!-- Project Info -->
-	<property name="project.archive" value="blackrook-dl" />
+	<property name="project.archive" value="blackrook-utility" />
 	<property name="project.javadoc.title" value="Black Rook Utility" />
 	<property name="project.classpath" value="${common.lib}${S}${common.lang.lib}" />
 	<property name="project.javadoc.packages" value="
