@@ -1,6 +1,0 @@
-Utility (C) Black Rook Software, All rights reserved.
-
-Changed in 2.0.1
-================
-
-- Changed: Source indentation style.
