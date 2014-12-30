@@ -14,9 +14,9 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 
 import com.blackrook.commons.Common;
+import com.blackrook.commons.CommonTokenizer;
 import com.blackrook.commons.hash.CaseInsensitiveHashMap;
 import com.blackrook.commons.list.List;
-import com.blackrook.lang.CTokenizer;
 
 /**
  * Command script executor.
@@ -114,7 +114,7 @@ public class Executor<C extends Context, E extends Enum<E>>
 				else if (tline.startsWith(commentPrefix))
 					continue;
 				
-				CTokenizer ct = new CTokenizer(tline);
+				CommonTokenizer ct = new CommonTokenizer(tline);
 				E cmd = commandHash.get(ct.nextToken());
 				if (cmd == null)
 					throw new ScriptException(streamName, lineCount, "Expected valid command.");

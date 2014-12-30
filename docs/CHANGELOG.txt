@@ -1,5 +1,10 @@
 Utility (C) Black Rook Software, All rights reserved.
 
+Changed in 2.0.2
+================
+
+- Changed: Updated deprecated reference to non-deprecated reference.
+
 Changed in 2.0.1
 ================
 
