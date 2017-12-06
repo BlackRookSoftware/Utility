@@ -1,6 +1,6 @@
 # Black Rook Utility
 
-Copyright (c) 2013-2014 Black Rook Software. All rights reserved.  
+Copyright (c) 2013-2017 Black Rook Software. All rights reserved.  
 [http://blackrooksoftware.com/projects.htm?name=utility](http://blackrooksoftware.com/projects.htm?name=utility)  
 [https://github.com/BlackRookSoftware/Utility](https://github.com/BlackRookSoftware/Utility)
 
@@ -21,6 +21,24 @@ This library contains some classes for simple utility creation.
 Contained in this release is a series of classes used for creating simple
 command-line utilities and versioning. The javadocs contain basic outlines 
 of each package's contents plus class documentation.
+
+### Compiling with Ant
+
+To download the dependencies for this project (if you didn't set that up yourself already), type:
+
+	ant dependencies
+
+A *build.properties* file will be created/appended to with the *dev.base* property set.
+	
+To compile this library with Apache Ant, type:
+
+	ant compile
+
+To make a JAR of this library, type:
+
+	ant jar
+
+And it will be placed in the *build/jar* directory.
 
 ### Other
 
